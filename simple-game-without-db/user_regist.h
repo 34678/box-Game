@@ -18,6 +18,19 @@ public:
 private slots:
     void on_signUpButton_2_clicked();
     void  back();
+
+    //return username
+    QString  username();
+
+    //return pwd
+    QString  pwd();
+
+    //return repeated pwd
+    QString  pwdRepeated();
+
+    //return email
+    QString email();
+
 private:
     Ui::user_regist *ui;
 };
