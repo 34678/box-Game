@@ -15,6 +15,9 @@ public:
     explicit user_regist(QWidget *parent = 0);
     ~user_regist();
 
+private slots:
+    void on_signUpButton_2_clicked();
+    void  back();
 private:
     Ui::user_regist *ui;
 };
