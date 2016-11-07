@@ -1,7 +1,7 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include<login.h>
+
 #include <QMainWindow>
 
 namespace Ui {

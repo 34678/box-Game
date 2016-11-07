@@ -1,7 +1,7 @@
 #ifndef MYVIEW_H
 #define MYVIEW_H
 
-#include"login.h"
+#include"user_login.h"
 #include <QGraphicsView>
 class BoxGroup;
 #include <phonon>
@@ -80,7 +80,7 @@ private:
     Phonon::MediaObject *backgroundMusic;
     Phonon::MediaObject *clearRowSound;
 
-    login *w;
+    user_login *w;
 
 };
 

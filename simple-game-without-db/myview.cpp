@@ -541,7 +541,7 @@ void MyView::saveScores()
 
 void MyView::loginSlots()
 {
-    w=new login();
+    w=new user_login();
     w->show();
 }
 

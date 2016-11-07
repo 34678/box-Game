@@ -18,16 +18,19 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
     mainwindow.cpp \
-    login.cpp \
     mybox.cpp\
-    myview.cpp
+    myview.cpp \
+    user_login.cpp \
+    user_regist.cpp
 
 HEADERS  += mainwindow.h \
-    login.h \
     mybox.h\
-    myview.h
+    myview.h \
+    user_login.h \
+    user_regist.h
 
 FORMS    += mainwindow.ui \
-    login.ui
+    user_login.ui \
+    user_regist.ui
 
 
