@@ -16,6 +16,8 @@ private slots:
 
     void on_signUpButton_2_clicked();
 
+    QString username();
+    QString pwd();
 public:
     explicit user_login(QWidget *parent = 0);
     ~user_login();

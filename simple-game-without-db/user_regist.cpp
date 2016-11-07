@@ -10,6 +10,7 @@ user_regist::user_regist(QWidget *parent) :
 {
     ui->setupUi(this);
      this->setWindowTitle(QObject::tr("注册"));
+    this->setWindowIcon(QIcon(":/image/icon.png"));
 }
 
 user_regist::~user_regist()
@@ -50,4 +51,21 @@ void user_regist::back(){
     user_login  *a= new user_login();
     this->hide();
     a->show();
+}
+
+//return username
+QString user_regist::username(){
+    return ui->userLineEdt_2->text();
+}
+//return pwd
+QString user_regist::pwd(){
+    return ui->pwd1->text();
+}
+//return repeated pwd
+QString user_regist::pwdRepeated(){
+    return ui->pwd2->text();
+}
+//return email
+QString user_regist::email(){
+    return ui->psdLineEdt_4->text();
 }
